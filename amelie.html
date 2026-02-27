@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Position précise</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #000; /* fond noir pour immersion */
+      font-family: Georgia, serif;
+    }
+
+    .bloc {
+      width: 100vw;
+      max-width: 100%;
+    }
+
+    iframe {
+      display: block;
+      width: 100vw;
+      height: 56.25vw; /* ratio 16:9 */
+      border: none;
+    }
+
+    img {
+      display: block;
+      width: 100vw;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .header {
+      font-size: 1.5em;
+      text-align: center;
+      color: white;
+      margin-top: 30px;
+    }
+
+    .footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 60px;
+      padding-bottom: 40px;
+      text-align: left;
+    }
+
+    .footer-text {
+      font-size: 1.5em;
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    .lock-link img {
+      width: 20vw;
+      transition: transform 0.3s;
+      display: block;
+      margin: 0 auto;
+      max-width: 200px;
+      height: auto;
+    }
+
+    .lock-link img:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="header">
+    On raconte qu’au XIe siècle, un moine du nom de <strong>Frère Tranber</strong> vivait à Chevreuse.
+      Né en l’an <strong>1030</strong>, Il n’était ni abbé, ni prêcheur, mais un copiste discret, qui passait ses journées à écrire en silence.
+      Certains disaient qu’il travaillait à un message trop vaste pour une seule vie.
+      Puis un jour, il disparut sans laisser de trace… ou presque. Cette seule page de son manuscrit fut conservée en secret par une famille de Chevrotins durant toutes ces années.
+      Depuis, on chuchote dans le village qu’il aurait dissimulé son œuvre dans les recoins du village, à qui saurait regarder autrement.</h1>
+  </div>
+
+  <!-- Image en pleine largeur -->
+  <img src="images/enigme-venise.png" alt="Venise">
+
+  <!-- <div class="footer">
+    <div class="footer-text">
+      Tu peux vérifier que l'adresse trouvée est la bonne en cliquant sur le cadenas
+    </div>
+    <a href="https://lockee.fr/o/TNUEkeUP" target="_blank" class="lock-link">
+      <img src="images/cadenas.png" alt="Check position">
+    </a>
+  </div> -->
+
+
+</body>
+</html>
